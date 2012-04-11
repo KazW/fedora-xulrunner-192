@@ -7,11 +7,10 @@ This will allow you to do commits/team operations in Aptana using git.
  
 ## Install ##
 `./go_baby_go.sh`
-This will output a directory name "fedora-xulrunner-192" in the repo root.
+ This will output a directory name "fedora-xulrunner-192" in the repo root.
 Copy this directory to your Aptana root and add the following to your "AptanaStudio3.ini"
 `-Dorg.eclipse.swt.browser.XULRunnerPath=YOUR_FULL_PATH/fedora-xulrunner-192`
- 
-Be sure to change the "YOUR_FULL_PATH" part.
+ Be sure to change the "YOUR_FULL_PATH" part.
  
 #### Credits ####
 Firefox source and patches are taken from https://aur.archlinux.org/packages.php?ID=53282
