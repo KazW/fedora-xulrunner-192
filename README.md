@@ -6,10 +6,10 @@ antiquated version of xulrunner and Fedora 16 no longer having RPMs for it.
 This will allow you to do commits/team operations in Aptana using git.
  
 ## Install ##
-`./go_baby_go.sh`
+`./go_baby_go.sh` 
  This will output a directory name "fedora-xulrunner-192" in the repo root.
 Copy this directory to your Aptana root and add the following to your "AptanaStudio3.ini"
-`-Dorg.eclipse.swt.browser.XULRunnerPath=YOUR_FULL_PATH/fedora-xulrunner-192`
+`-Dorg.eclipse.swt.browser.XULRunnerPath=YOUR_FULL_PATH/fedora-xulrunner-192` 
  Be sure to change the "YOUR_FULL_PATH" part.
  
 #### Credits ####
